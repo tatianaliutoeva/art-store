@@ -1,0 +1,335 @@
+@charset "UTF-8";
+.cell {
+    float:left;
+    margin: auto;
+    height: 100%;
+    vertical-align: bottom;
+    
+}
+header{
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    width: 100%;
+    height: 60px;     
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    padding: 3px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-width: 750px;
+    margin: 0;
+}
+
+#logo{
+    width: 10%;
+    text-align: center;
+}
+#logo img{
+    height: 100%;
+}
+
+#phone{
+    width: auto;
+    text-align: center;
+}
+#phone p{
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: monospace;
+}
+
+#enter{
+    width: 20%;
+   
+}
+#enter a{
+    text-decoration: none;
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color:#303030;
+}
+#enter a:visited{
+    color:#303030;
+}
+#enter a:hover{
+    text-decoration: underline;
+}
+#lk{
+    width: 20%;
+    font-size: 16px;
+    font-weight: 600;
+}
+ .section a{
+    font-size: 30px;
+    display:inline-block;
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    padding-top: 140px;
+    vertical-align: middle;
+
+}
+.section{
+    border: 2px solid white;
+    display:inline-block;
+    background: indianred;
+	text-align: center;
+	width:27%;
+	height:300px;
+	padding: 20px;
+	margin:50px 5px;
+	border-radius:10px;
+	vertical-align:middle;
+}
+.section:hover{
+	background: teal;
+}
+#blocks{
+	text-align: center;
+	width:100%;
+	height:100%;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+ .product-inner {
+    display: inline-block;
+    width: 250px;
+    height: 280px;
+    margin: 10px 25px 25px 10px;
+    background: white;
+    text-align: center;
+    
+    border-bottom: 2px solid #ebebec;
+    transition: .2s linear;
+ }
+ .product-inner:hover {
+    border-color: #bca480;
+ }
+ .product-wrap {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 15px;
+    text-align: center;
+ }
+
+ .product-wrap a img {
+    display: block;
+    max-height: 200px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .actions {
+    position: absolute;
+    left: 0;
+    bottom: -24%;
+    width: 100%;
+    background: rgba(59, 62, 67, 0.75);
+    transition: .3s linear;
+ }
+
+ .product-inner:hover .actions {
+    bottom: 0;
+ }
+ .actions a {
+    text-decoration: none;
+    float: left;
+    width: 100%;
+    color: white;
+    padding: 15px 0;
+    transition: .2s linear; 
+ }
+ .actions a:hover {
+    background: rgba(59, 62, 67, 0.85);
+ }
+ .actions a:before {
+    font-family: "FontAwesome";
+    
+ }
+ .add-to-cart {
+   display:none;
+    
+ }
+ .add-to-cart:before {
+   content: "\f07a";
+    
+ }
+ .quickview:before {
+   content: "\f002";
+}
+
+ .product-info {
+    padding-bottom: 10px;
+    font-family: 'Noto Sans', sans-serif;
+ }
+ .product-title {
+    margin: 0 0 8px 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    color: #303030;
+}
+ 
+ .price {
+    font-weight: bold;
+    color: #bca480;
+    font-size: 16px;
+ }
+
+ #menu_content{
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 100%;
+   
+}
+#content{
+    width: 80%;
+    text-align: center;
+    float: right;  
+    border-top: #bca480;
+}
+#menu{
+    
+    width: 15%;
+    margin-right: 10px;
+    height: 100%;
+    float: left;
+    border-top: #bca480;
+}
+.menu-item{
+    font-family: 'Noto Sans', sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    margin: 7px;
+    font-size: 18px;
+    color: #303030;
+    vertical-align: middle;
+}
+.menu-item a{
+    text-decoration: none;
+    color: #303030;
+}
+.menu-item a:visited{
+    color: #303030;
+}
+.menu-item a:hover{
+    text-decoration: underline;
+}
+.menu-item a:active{
+    color:indianred;
+
+}
+
+footer{
+    
+    width: 100%;
+    height: 30px;
+    color: dimgray;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: dimgray;
+}
+
+.card{
+	text-align:center;
+	
+}
+.card p{
+	text-align:left;
+	padding-left: 20px;
+}
+
+table{
+    border: 2px solid white;
+    padding:20px;
+    font-size:16px;
+}
+
+td{
+	text-align:center;
+	width:auto;
+	padding: 10px;
+}
+
+#cart_card{
+	display:none;
+	margin-left: 20px;
+}
+.auth{
+	width:100%;
+	height:470px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.auth p{
+	font-size: 20px;
+	
+}
+.reg-button{
+	background-color: lightgrey;
+	border: dimgrey;
+	color: white;
+	height: 30px;
+	width: 125px;
+}
+.auth-button{
+	background-color: indianred;
+	border: dimgrey;
+	color: white;
+	height: 30px;
+	width: 80px;
+}
+#regis{
+	background-color: indianred;
+	border: dimgrey;
+	color: white;
+	height: 30px;
+	width: 200px;
+}
+input{
+	height:20px;
+	font-size: 16px;
+}
+#phone{
+	width: 195px;
+	text-align: left;
+}
+#exit, #cart, #exitlk{
+	margin-top:10px;
+	text-decoration: none;
+	font-size: 18px;
+    font-weight: 600;
+    color:#303030;
+}
+#exit a:visited, #cart a:visited, #exitlk a:visited{
+    color:#303030;
+}
+#exit a:hover, #exitlk a:hover{
+    text-decoration: underline;
+}
+#cart a:hover{
+    text-decoration: underline;
+}
+.toOrder{
+	width: 10%;
+	height: 30px;
+	margin-left:20px;
+	background-color: indianred;
+	border: dimgrey;
+	color: white;
+}
